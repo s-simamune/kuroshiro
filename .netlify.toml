@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/dict/*.dat.gz"
+  [headers.values]
+    Content-Type = "application/octet-stream"
+    Content-Encoding = "gzip"
